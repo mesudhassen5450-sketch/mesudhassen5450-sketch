@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="assets/banner.jpg" alt="MHM — Software & IT Solutions" width="100%"/>
+<img src="assets/banner.jpg" alt="MHM — Software & IT Solutions" width="720" height="200" style="object-fit:cover;object-position:center;border-radius:12px;"/>
 
-<br/>
+<h1>MESUD HASSEN</h1>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Software+Developer;Full-Stack+Web+Developer;Networking+Enthusiast)](https://github.com/mesudhassen5450-sketch)
-
-**MESUD HASSEN**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&width=560&height=45&lines=Software+Developer;Full-Stack+Web+Developer;Networking+Enthusiast)](https://github.com/mesudhassen5450-sketch)
 
 `{ patience, faith, and focus }`
 
