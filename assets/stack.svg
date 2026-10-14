@@ -1,0 +1,104 @@
+<svg width="760" height="310" viewBox="0 0 760 310" xmlns="http://www.w3.org/2000/svg"
+     role="img" aria-label="Primary tech stack breakdown by project usage">
+  <title>Primary Stack — Project Usage Analysis</title>
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <!-- Bar gradients -->
+    <linearGradient id="tsG"  x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#007ACC"/>
+      <stop offset="100%" stop-color="#3b8fd4"/>
+    </linearGradient>
+    <linearGradient id="dartG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#0175C2"/>
+      <stop offset="100%" stop-color="#02b3e4"/>
+    </linearGradient>
+    <linearGradient id="reactG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#20232A"/>
+      <stop offset="100%" stop-color="#61DAFB"/>
+    </linearGradient>
+    <linearGradient id="nodeG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#215732"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="sbG"  x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#1a6643"/>
+      <stop offset="100%" stop-color="#3ECF8E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="760" height="310" rx="10" fill="#0d1117"/>
+  <rect width="760" height="1"   fill="#21262d"/>
+  <rect y="309" width="760" height="1" fill="#21262d"/>
+
+  <!-- Title -->
+  <text x="380" y="34" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600"
+        fill="#58a6ff">Primary Stack — Project Usage Analysis</text>
+
+  <!-- Subtitle -->
+  <text x="380" y="52" text-anchor="middle"
+        font-family="'Segoe UI', Arial, sans-serif" font-size="11"
+        fill="#8b949e">Based on source code volume across 8 repositories · frameworks counted by project presence</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="62" x2="730" y2="62" stroke="#21262d" stroke-width="1"/>
+
+  <!-- ── Row layout: label | bar | percent | evidence ── -->
+  <!-- BAR_X=160  BAR_W_MAX=380  PERCENT_X=550  EVIDENCE_X=610 -->
+
+  <!-- ROW 1: TypeScript  71% -->
+  <text x="30"  y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3">TypeScript</text>
+  <text x="155" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">71%</text>
+  <!-- track -->
+  <rect x="185" y="83" width="380" height="12" rx="6" fill="#21262d"/>
+  <!-- fill: 71% of 380 = 270 -->
+  <rect x="185" y="83" width="270" height="12" rx="6" fill="url(#tsG)"/>
+  <text x="570" y="95" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">4.1M lines · 5 projects</text>
+
+  <!-- ROW 2: Dart / Flutter  26% -->
+  <text x="30"  y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3">Dart / Flutter</text>
+  <text x="155" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">26%</text>
+  <rect x="185" y="118" width="380" height="12" rx="6" fill="#21262d"/>
+  <!-- 26% of 380 = 99 -->
+  <rect x="185" y="118" width="99" height="12" rx="6" fill="url(#dartG)"/>
+  <text x="570" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">1.5M lines · 1 project</text>
+
+  <!-- ROW 3: React  ─ framework on top of TS, used in 4 projects -->
+  <text x="30"  y="165" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3">React</text>
+  <text x="155" y="165" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">—</text>
+  <rect x="185" y="153" width="380" height="12" rx="6" fill="#21262d"/>
+  <!-- show as 4/5 projects = 80% of bar -->
+  <rect x="185" y="153" width="304" height="12" rx="6" fill="url(#reactG)"/>
+  <text x="570" y="165" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">framework · 4 projects</text>
+
+  <!-- ROW 4: Node.js -->
+  <text x="30"  y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3">Node.js</text>
+  <text x="155" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">—</text>
+  <rect x="185" y="188" width="380" height="12" rx="6" fill="#21262d"/>
+  <!-- 3/5 projects -->
+  <rect x="185" y="188" width="228" height="12" rx="6" fill="url(#nodeG)"/>
+  <text x="570" y="200" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">runtime · 3 projects</text>
+
+  <!-- ROW 5: Supabase -->
+  <text x="30"  y="235" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600" fill="#e6edf3">Supabase</text>
+  <text x="155" y="235" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">1%</text>
+  <rect x="185" y="223" width="380" height="12" rx="6" fill="#21262d"/>
+  <!-- PLpgSQL 1.1% of code = 4px, but show project presence: 3/5 -->
+  <rect x="185" y="223" width="228" height="12" rx="6" fill="url(#sbG)"/>
+  <text x="570" y="235" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#8b949e">BaaS · 3 projects</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="255" x2="730" y2="255" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Legend note -->
+  <text x="30" y="273" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#484f58">
+    % = share of total source bytes across all repos.
+  </text>
+  <text x="30" y="287" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#484f58">
+    React / Node.js / Supabase are frameworks &amp; services layered on TypeScript — project count shown instead.
+  </text>
+</svg>

@@ -73,23 +73,15 @@ I build practical web applications and software systems that solve real-world pr
 
 <div align="center">
 
-<!-- Activity stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=mesudhassen5450-sketch&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" width="48%"/>
-
-<!-- Primary stack skills — based on actual project work -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mesudhassen5450-sketch&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&hide=html,css,batchfile,powershell,cmake,shell,swift,kotlin,objective-c" alt="Top Languages" width="38%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=mesudhassen5450-sketch&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=3fb950&text_color=c9d1d9&rank_icon=github" alt="GitHub Stats" width="52%"/>
 
 </div>
 
+### Primary Stack
+
 <div align="center">
 
-**Primary Stack** — based on project work
-
-![TypeScript](https://img.shields.io/badge/TypeScript-★★★★★-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter%20%2F%20Dart-★★★★☆-02569B?style=flat-square&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-★★★★☆-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-★★★☆☆-43853D?style=flat-square&logo=node.js&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-★★★☆☆-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+<img src="assets/stack.svg" alt="Primary stack breakdown: TypeScript 71%, Dart/Flutter 26%, React 4 projects, Node.js 3 projects, Supabase 3 projects" width="100%"/>
 
 </div>
 
